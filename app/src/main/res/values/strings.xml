@@ -1,6 +1,38 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Namaz Reminder</string>
+    <string name="title_home">Prayers</string>
+    <string name="title_dashboard">Notifications</string>
+    <string name="title_notifications">Qibla</string>
+    <string name="title_settings">Settings</string>
+    <string name="fajr">Fajr</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="location_permission_required">Location permission is required to get correct prayer times.</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+
+    <string-array name="calculation_methods">
+        <item>Ithna Ashari</item>
+        <item>University of Islamic Sciences, Karachi</item>
+        <item>Islamic Society of North America (ISNA)</item>
+        <item>Muslim World League (MWL)</item>
+        <item>Umm al-Qura, Makkah</item>
+        <item>Egyptian General Authority of Survey</item>
+        <item>Institute of Geophysics, University of Tehran</item>
+        <item>Custom Setting</item>
+    </string-array>
+
+    <string-array name="juristic_methods">
+        <item>Shafii (standard)</item>
+        <item>Hanafi</item>
+    </string-array>
+
+    <string-array name="latitude_adjustments">
+        <item>No adjustment</item>
+        <item>Middle of night</item>
+        <item>1/7th of night</item>
+        <item>Angle/60th of night</item>
+    </string-array>
 </resources>
